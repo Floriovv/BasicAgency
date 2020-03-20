@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'ScotGroteskA-Bold';
+  src: url('../css/fonts/SctoGroteskA-Bold.woff2');
+}
+
+@font-face {
+  font-family: 'ScotGroteskA-Medium';
+  src: url('../css/fonts/SctoGroteskA-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'ScotGroteskA-Regular';
+  src: url('../css/fonts/SctoGroteskA-Regular.woff2');
+}
+
+body{
+  margin: 0;
+  font-family: 'ScotGroteskA-Bold';
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+.uppercase-text{
+  text-transform: uppercase;
+}
+
+.logo{
+  height: 60px;
+  width: 160px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.navigation{
+  display: flex;
+  position: relative;
+}
+
+.nav-list{
+  display: flex;
+  list-style: none;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.nav-link{
+  margin-left: 70px;
+}
+
+.dot{
+  background-color: #000;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.title-dot{
+  padding: 32px;
+  display: inline-block;
+}
+
+.vanish-checkbox{
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  opacity: 1;
+  cursor: pointer;
+}
+
+input[type="checkbox"] ~ img{
+  display: none;
+}
+input[type="checkbox"]:checked ~ img{
+  display: inline;
+}
+
+.headercheckbox{
+  margin-top: 50px;
+  margin-left: 330px;
+}
+
+.titles-left{
+  margin-top: 100px;
+  width: 600px;
+  display: block;
+  margin-left: 50px;
+}
+
+.titles-right{
+  display: block;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.title-h2{
+  font-size: 70px;
+}
+
+.title-inline{
+  display: inline;
+}
+
+video{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+video:focus{
+  outline: none;
+}
+
+.line-long{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: .1px;
+  width: 1340px;
+  border: .5px solid black
+}
+
+.line-medium{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: .1px;
+  width: 300px;
+  border: .5px solid black
+}
+
+.line-short{
+  
+}
+
+.main-p-firstsection{
+  margin-left: 50px;
+  color: gray;
+  font-size: 12px;
+}
+
+.content-p-firstsection{
+  margin-left: 50px;
+  font-size: 35px;
+  width: 660px;
+}
+
+.content-div-firstsection{
+  display: flex;
+}
+
+.branding-img-firstsection{
+  height: 200px;
+  width: 300px;
+  margin-left: 400px;
+}
+
+.button-firstsection{
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 5px 25px 5px 25px;
+  margin-left: 50px;
+  margin-bottom: 150px;
+  font-family: 'ScotGroteskA-Bold';
+}
+
+.button-firstsection:focus{
+  outline: none;
+}
+
+.button-firstsection:hover{
+  background-color: lightgray;
+}
+
+.button-firstsection:active{
+  background-color: gray;
+}
+
+.title-secondsection{
+  margin-left: 50px;
+}
+
+.scrollbox{
+  display: flex;
+  scroll-margin-right: 3000px;
+  margin-left: 50px;
+}
+
+.scrollbox-img{
+  height: 140px;
+  width: 300px;
+}
+
+.scrollbox-article:not(:first-of-type){
+  margin-left: 80px;
+}
