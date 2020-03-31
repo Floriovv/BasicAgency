@@ -25,7 +25,7 @@ a{
 }
 
 .margin-t{
-  margin-top: 50px;
+  margin-top: 64px;
 }
 
 .margin-r{
@@ -58,6 +58,16 @@ a{
 
 .padding-l{
   padding-left: 50px;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
 }
 
 .uppercase-text{
@@ -251,12 +261,9 @@ video:focus{
   color: #f9cdcd;
 }
 
-.square{
-  background-color: #000;
-  height: 50px;
-  width: 50px;
-  margin-top: 500px;
-  margin-left: 50%;
-  margin-right: 50%;
-  transform: translate(-50%, -50%);
+.culture-video{
+  float: right;
+  clear: both;
+  height: 630px;
+  width: 500px;
 }
