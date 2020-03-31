@@ -29,7 +29,7 @@ a{
 }
 
 .margin-r{
-  margin-right: 50px;
+  margin-right: 5%;
 }
 
 .margin-b{
@@ -37,7 +37,11 @@ a{
 }
 
 .margin-l{
-  margin-left: 50px;
+  margin-left: 5%;
+}
+
+.margin-t-no{
+  margin-top: 0;
 }
 
 .padding-t{
@@ -126,16 +130,13 @@ a{
 
 .title-h2{
   font-size: 70px;
-  margin-top: 0;
   margin-bottom: 0;
 }
 
 video{
-  width: 100vw;
-}
-
-.video-container{
-  height: 1000px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%
 }
 
 video:focus{
@@ -148,25 +149,25 @@ video:focus{
   margin-right: 50px;
   height: .1px;
   width: 1340px;
-  border: .5px solid black
+  border: .5px solid #000
 }
 
 .line-short{
   margin-top: 5px;
   height: .1px;
   width: 50px;
-  border: 1px solid black
+  border: 1px solid #000
 }
 
 .line-medium{
   margin-top: 30px;
   height: .1px;
   width: 350px;
-  border: .5px solid black
+  border: .5px solid #000
 }
 
 .main-p-firstsection{
-  color: gray;
+  color: #808080;
   font-size: 12px;
 }
 
@@ -186,16 +187,25 @@ video:focus{
   margin-left: 400px;
 }
 
-.button-firstsection{
-  border: 1px solid #000;
+.button{
+  background-color: transparent;
+  border: 1px solid;
   border-radius: 11px;
   padding: 5px 25px 5px 25px;
-  margin-left: 50px;
-  margin-bottom: 150px;
   font-family: 'ScotGroteskA-Bold';
 }
 
-.button-firstsection:focus{
+.button--firstsection{
+  border-color: #000;
+  color: #000;
+}
+
+.button--thirdsection{
+  border-color: #f9cdcd;
+  color: #f9cdcd;
+}
+
+.button--firstsection:focus, .button--thirdsection:focus{
   outline: none;
 }
 
@@ -205,9 +215,15 @@ video:focus{
   color: #fff;
 }
 
-.button--firstsection:active{
+.button--firstsection:active, .button--thirdsection:active{
   background-color: #fff;
   color: #000;
+}
+
+.button--thirdsection:hover{
+  background-color: #f9cdcd;
+  color: #000;
+  transition: .3s;
 }
 
 .title-secondsection{
@@ -235,6 +251,12 @@ video:focus{
   color: #f9cdcd;
 }
 
-.button--thirdsection{
-
+.square{
+  background-color: #000;
+  height: 50px;
+  width: 50px;
+  margin-top: 500px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
 }
