@@ -262,8 +262,18 @@ video:focus{
 }
 
 .culture-video{
-  float: right;
-  clear: both;
   height: 630px;
   width: 500px;
+}
+
+.thirdsection-video-container{
+  float: right;
+  clear: both;
+  width: 500px;
+  margin-left: 200px;
+}
+
+.adweekimage{
+  height: 200px;
+  width: 350px;
 }
