@@ -275,3 +275,7 @@ video:focus{
   height: 200px;
   width: 350px;
 }
+
+.paragraph-special{
+  margin-left: 50px;
+}
