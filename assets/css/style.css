@@ -161,6 +161,14 @@ video:focus{
   border: .5px solid #000
 }
 
+.line-long-white{
+  margin-top: 30px;
+  margin-right: 50px;
+  height: .1px;
+  width: 1340px;
+  border: .5px solid #fff
+}
+
 .line-short{
   margin-top: 5px;
   height: .1px;
@@ -234,10 +242,6 @@ video:focus{
   transition: .3s;
 }
 
-.title-secondsection{
-  margin-left: 50px;
-}
-
 .scrollbox{
   width: 93%;
   display: flex;
@@ -254,7 +258,7 @@ video:focus{
   margin-left: 180px;
 }
 
-.thirdsection{
+.thirdsection, .fourthsection{
   background-color: #252422;
   color: #f9cdcd;
 }
