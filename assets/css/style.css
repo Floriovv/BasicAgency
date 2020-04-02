@@ -1,14 +1,14 @@
-@font-face {
+@font-face{
   font-family: 'ScotGroteskA-Bold';
   src: url('../css/fonts/SctoGroteskA-Bold.woff2');
 }
 
-@font-face {
+@font-face{
   font-family: 'ScotGroteskA-Medium';
   src: url('../css/fonts/SctoGroteskA-Medium.woff2');
 }
 
-@font-face {
+@font-face{
   font-family: 'ScotGroteskA-Regular';
   src: url('../css/fonts/SctoGroteskA-Regular.woff2');
 }
@@ -78,6 +78,14 @@ a{
   font-family: 'ScotGroteskA-Bold';
 }
 
+.meduim{
+  font-family: 'ScotGroteskA-Medium';
+}
+
+.regular{
+  font-family: 'ScotGroteskA-Regular';
+}
+
 .logo{
   height: 60px;
   width: 160px;
@@ -140,6 +148,11 @@ a{
 
 .title-h2{
   font-size: 70px;
+  margin-bottom: 0;
+}
+
+.title-h3{
+  font-size: 40px;
   margin-bottom: 0;
 }
 
@@ -280,6 +293,18 @@ video:focus{
   width: 350px;
 }
 
+.news-container{
+  margin-top: 2%;
+}
+
+.news{
+  width: 40%;
+}
+
 .paragraph-special{
   margin-left: 50px;
+}
+
+.title-fourthsection{
+  width: 200px;
 }
