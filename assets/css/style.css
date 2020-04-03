@@ -288,8 +288,8 @@ video:focus{
   margin-left: 200px;
 }
 
-.adweekimage{
-  height: 200px;
+.adweekimage, .webbyimage{
+  height: 230px;
   width: 350px;
 }
 
