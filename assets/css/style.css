@@ -131,7 +131,6 @@ a{
 
 .headercheckbox{
   margin-top: 50px;
-  margin-left: 330px;
 }
 
 .titles-left{
@@ -142,8 +141,6 @@ a{
 .titles-right{
   display: block;
   text-align: right;
-  margin-right: 190px;
-  margin-bottom: 0;
 }
 
 .title-h2{
@@ -153,7 +150,6 @@ a{
 
 .title-h3{
   font-size: 40px;
-  margin-bottom: 0;
 }
 
 video{
