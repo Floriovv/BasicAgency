@@ -24,6 +24,11 @@ a{
   color: unset;
 }
 
+.bottom{
+  position: absolute;
+  bottom: 0;
+}
+
 .margin-t{
   margin-top: 64px;
 }
@@ -294,7 +299,7 @@ video:focus{
 }
 
 .news{
-  width: 40%;
+  width: 45%;
 }
 
 .paragraph-special{
