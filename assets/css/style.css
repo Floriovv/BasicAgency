@@ -318,6 +318,7 @@ video:focus{
 
 .arrow-link{
   height: 100%;
+  margin-left: 15%;
 }
 
 .footer{
@@ -327,4 +328,8 @@ video:focus{
 
 .inverted{
   filter: invert(100%);
+}
+
+.checkbox-div{
+  width: 100%;
 }
